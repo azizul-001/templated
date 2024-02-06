@@ -1,0 +1,126 @@
+.bs {
+  padding: 14rem 10rem;
+  background-image: url("/images/bg-section.jpg");
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  color: crimson;
+  margin-bottom: 1rem;
+}
+
+.banner h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/*******Product section strt */
+
+.pd {
+  padding: 2rem 7rem;
+}
+
+.product-intro {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.product-intro h1 {
+  font-size: 1.54rem;
+  color: crimson;
+}
+
+.product-intro p {
+  font-size: 1rem;
+  color: crimson;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*****product items */
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.p-item {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px gray;
+  cursor: pointer;
+}
+
+.p-item img {
+  border-radius: 10px 10px 0 0;
+}
+
+.p-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p-parent {
+  padding: 1rem;
+}
+
+.p-parent h3,
+.p-parent b {
+  color: crimson;
+}
+
+.p-parent p {
+  font-size: 1rem;
+  margin-top: 0.6rem;
+}
+
+.p-flex2 {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p-flex2 ul li {
+  list-style-type: none;
+  color: rgb(220, 20, 20);
+}
+
+.p-flex2 ul {
+  display: flex;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+
+.p-flex2 button {
+  background-color: #fff;
+  color: crimson;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid crimson;
+}
+
+.p-flex2 button:hover {
+  transition: 0.15s;
+  background-color: crimson;
+  color: #fff;
+}
+
+.az {
+  color: rgb(247, 148, 0);
+}
